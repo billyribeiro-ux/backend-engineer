@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo --version)",
+      "Bash(rustc --version)",
+      "Bash(SQLX_OFFLINE=true cargo check)",
+      "Bash(grep -v \"run \\\\`cargo sqlx\")",
+      "Bash(SQLX_OFFLINE=true cargo check --tests)",
+      "Bash(node build.js)",
+      "Bash(open \"/Users/billyribeiro/Desktop/backend-engineer/index.html\")"
+    ]
+  }
+}
